@@ -1,0 +1,41 @@
+<section class="image">
+
+  <p>{{'PERSONALDATA' | translate}}</p>
+
+  <mat-card class="container">
+    <img [src]="profilePic" alt="">
+    <div>
+      <div>
+        {{'FLNAME' | translate}}
+        <input matInput type="text" [value]="this.user.name" (input)="this.user.name = $event.target.value" [disabled]="disa">
+      </div>
+
+      <div>
+        {{'EMAIL' | translate}}
+        <input matInput type="text" [value]="this.user.email" (input)="this.user.email = $event.target.value" [disabled]="disa">
+      </div>
+
+      <div>
+        {{'PASSWORD' | translate}}
+        <input matInput type="password" [value]="this.user.password" (input)="this.user.password = $event.target.value" [disabled]="disa">
+      </div>
+
+      <div>
+        {{'DISEASES' | translate}}
+        <input matInput type="text" [value]="this.user.diseases" (input)="this.user.diseases = $event.target.value" [disabled]="disa">
+      </div>
+      <div>
+        <mat-slide-toggle [checked]="checked" (change)="clickMe()">
+          <span *ngIf="disa">{{'SLIDEEN' | translate}}</span>
+          <span *ngIf="!disa">{{'SLIDEDIS' | translate}}</span>
+        </mat-slide-toggle>
+        <!--<button [disabled]="disa" (click)="clickMe()">ok</button>-->
+      </div>
+    </div>
+
+
+  </mat-card>
+
+
+</section>
+

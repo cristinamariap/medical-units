@@ -1,0 +1,28 @@
+{
+  "HELLO": "hello ",
+  "NAME" : "Last Name: ",
+  "PNAME" : "First Name:",
+  "FLNAME" : "Name: ",
+  "TYPE" : "Type: ",
+  "LOCATION" : "Location: ",
+  "SPECIALIZATION" : "Specialization: ",
+  "GRADUATION" : "Graduation year: ",
+  "DETAILS" : "Details:",
+  "MEDUNITS": "Medical Units:",
+  "DOCTORS" : "Doctors:",
+  "HOME" : "HOME",
+  "ABOUT" : "ABOUT",
+  "PERSONALDATA" : "PERSONAL DATA:",
+  "EMAIL" : "E-mail: ",
+  "PASSWORD" : "Password: ",
+  "CHANGE" : "CHANGE",
+  "DISEASES" : "Diseases: ",
+  "SLIDEEN" : "Slide right to enable data editing",
+  "SLIDEDIS" : "Slide left to disable data editing",
+  "LOGIN": "LOGIN",
+  "REGISTER": "REGISTER",
+  "QREGISTER": "Don't have an account yet? Register here",
+  "PROFILEPIC": "Profile Picture",
+  "CREATEACCOUNT": "Create an account filling the following fields:"
+
+}

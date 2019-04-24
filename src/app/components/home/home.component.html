@@ -1,0 +1,36 @@
+<section class="image">
+
+<p>{{'MEDUNITS' | translate}}</p>
+
+<mat-card class="container" *ngFor="let unit of unitatiMedicale">
+  <img [src]="unit.sigla" alt="">
+  <mat-list>
+    <mat-list-item>
+      <div>
+        {{'NAME' | translate}}
+        <span>{{unit.nume}}</span>
+      </div>
+    </mat-list-item>
+    <mat-list-item>
+      <div>
+        {{'TYPE' | translate}}{{unit.tipUnitate}}
+      </div>
+      <div>
+        <p></p>
+      </div>
+    </mat-list-item>
+    <mat-list-item>
+      <div>
+        {{'LOCATION' | translate}}{{unit.locatie}}
+      </div>
+      <div>
+        <p></p>
+      </div>
+    </mat-list-item>
+
+    <button (click)="clickMe(unit.id)">{{'DETAILS' | translate}}</button>
+  </mat-list>
+</mat-card>
+
+</section>
+

@@ -1,0 +1,80 @@
+:host {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  box-shadow: none;
+}
+
+.container  div {
+  font-size: 25px;
+  font-family: "Calibri", sans-serif !important;
+  padding-left: 2rem;
+}
+
+.container div input{
+  opacity: 1;
+  background: lightskyblue;
+}
+
+.container  div span {
+  font-size: 30px;
+  font-family: "Calibri", sans-serif !important;
+  position: initial;
+  color: navy;
+  font-weight: bold;
+  /*padding-left: 5pc;*/
+}
+
+.container > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /*opacity: 1;*/
+}
+
+
+.container div div button {
+  /*position: relative;*/
+  font-size: 15px;
+  font-family: "Calibri", sans-serif !important;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #add8e6;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.6;
+  position: absolute;
+}
+
+.container div div mat-slide-toggle span{
+  font-size: 20px;
+  font-family: "Calibri", sans-serif !important;
+  position: initial;
+  color: navy;
+  font-weight: lighter;
+}
+
+.container mat-list button:hover {
+  opacity: 1
+}
+
+.image p {
+  font-size: 30px;
+  font-family: "Calibri", sans-serif !important;
+  color: navy;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+/*table {*/
+/*width: 100%;*/
+/*}*/

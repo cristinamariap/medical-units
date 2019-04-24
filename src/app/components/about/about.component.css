@@ -1,0 +1,64 @@
+:host {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  /*opacity: 1;*/
+}
+
+.container mat-list mat-list-item div{
+  font-size: 25px;
+  font-family: "Calibri", sans-serif!important;
+  /*opacity: 1;*/
+}
+
+.container mat-list mat-list-item div p{
+  font-size: 40px;
+  font-family: "Calibri", sans-serif!important;
+  position: initial;
+  padding-left: 5pc;
+  /*opacity: 1;*/
+}
+
+.container mat-list-item{
+  height: 40px;
+  width: 1000px;
+  /*opacity: 1;*/
+}
+
+.container > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /*opacity: 1;*/
+}
+
+.container > mat-list{
+  position: relative;
+  /*opacity: 1;*/
+}
+
+.image p{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Calibri", sans-serif!important;
+  color: navy;
+  padding-left: 30px;
+}
+
+.container mat-list mat-list-item div span {
+  font-size: 30px;
+  font-family: "Calibri", sans-serif !important;
+  position: initial;
+  color: navy;
+  font-weight: bold;
+  /*padding-left: 5pc;*/
+}
+
+/*table {*/
+  /*width: 100%;*/
+/*}*/
+

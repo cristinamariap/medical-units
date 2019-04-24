@@ -1,0 +1,20 @@
+<section class="image container">
+  <mat-card>
+    <img [src]="profilePic" alt="">
+    <div>
+      <div>
+        {{'EMAIL' | translate}}
+        <input matInput type="text" placeholder="Enter Email" [value]="email" (input)="email = $event.target.value" required>
+      </div>
+
+      <div>
+        {{'PASSWORD' | translate}}
+        <input matInput type="password" placeholder="Enter Password" [value]= "password" (input)="password = $event.target.value" required>
+      </div>
+    </div>
+    <BR>
+    <button (click)="clickMe()">{{'LOGIN' | translate}}</button>
+  </mat-card>
+
+</section>
+
